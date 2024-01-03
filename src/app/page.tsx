@@ -11,16 +11,16 @@ export default function Home() {
 			<div className="bg-gradient-home w-full min-h-screen overflow-hidden">
 				<div className="md:pl-20 flex flex-col ">
 					<NavbarHome status={status} />
-					<div className="flex flex-col justify-center items-center md:flex-row  w-full h-[45rem]">
-						<div className="w-full md:w-1/2 flex  justify-center items-center">
+					<div className="flex flex-col justify-center items-center md:flex-row  w-full h-[32rem]">
+						<div className="w-full md:w-1/2 flex justify-center items-center">
 							<Image
 								src={"/img/animek.png"}
-								width={650}
-								height={650}
+								width={600}
+								height={600}
 								alt="home-image"
 							/>
 						</div>
-						<div className="w-full md:w-1/2flex flex-col justify-center gap-10">
+						<div className="w-full md:w-1/2 flex flex-col justify-center gap-10">
 							<div className="flex justify-center md:justify-start">
 								<Image
 									src={"/img/osanagoTrans.png"}
